@@ -14,4 +14,8 @@ export class CriarPensamentoComponent {
     autoria: 'dev',
     modelo: ''
   }
+
+  criarPensamento(){
+    alert('Novo pensamento criado');
+  }
 }
